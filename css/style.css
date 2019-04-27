@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+/*MediaQuery*/
+@media only screen and (max-width: 480px) {
+	header h1{font-size: 1.7em;}
+}
+body{background-image: linear-gradient(to right, #120016 20%, #392905);}
+
+/*Header*/
+header #tittle{margin: 0 auto; left: 0; right: 0; padding-top: 5%;}
+header h1{font-family: 'Neucha', cursive;letter-spacing: 0.8em;}
+header p{letter-spacing: 0.75em;}
+header > div{background-image: url(../img/header.jpg); height: 100vh;background-size: cover;background-position: top;}
+
+/*Main*/
+main{transform: scale(0.85);}
+main section > div img{width: 750px;max-height: 463px; height: auto; border:2px solid black;}
+main section #center img{width: 800px;}
+main section::before{content: ""; padding: 1% 0px; display: block;}
+main section::after{content: ""; border-bottom: 1px solid rgba(255,255,255,0.3); display: block; width: 100%;}
+main h2{font-family: 'Anton', sans-serif;letter-spacing: 0.8em; border-bottom: 1px solid white;}
+
+/*Footer*/
+footer{background: rgba(0,0,0,0.5); border-top: 1px solid rgba(255,255,255,0.3);font-size: .8em; line-height: 2em;}
+footer li{list-style: none; }
+footer li a{color: white;text-decoration: none; padding: 0px 10px}
+footer li a:hover{color: rgba(255,255,255,0.8);}
